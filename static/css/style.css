@@ -250,7 +250,8 @@
     color: #c43b68;
 }
 .fr__pro__prize {
-    display: flex;
+    /* display: flex; */
+    display: none;
     justify-content: center;
     margin-top: 6px;
 }
@@ -362,7 +363,8 @@
 }
 
 .product__action {
-    display: flex;
+    /* display: flex; */
+    display: none;
     justify-content: center;
     flex-flow: column;
 }
