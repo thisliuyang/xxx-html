@@ -192,12 +192,12 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #c43b68;
+    color: #303AB2;
 }
 p a:hover,
 p a:focus,
 p a:active {
-    color: #c43b68;
+    color: #303AB2;
 }
 h1 a,
 h2 a,
@@ -245,14 +245,14 @@ body {
   background: #fff;
 }
 .mark, mark {
-    background: #c43b68 none repeat scroll 0 0;
+    background: #303AB2 none repeat scroll 0 0;
     color: #ffffff;
 }
 /*-------------------------------
   06. Bg-Color
 -------------------------------------*/
 .bg__theme {
-    background: #c43b68;
+    background: #303AB2;
 }
 .bg__white {
   background: #fff;
@@ -329,10 +329,10 @@ body {
   09. Text Color
 --------------------------------*/
 .text--theme { 
-  color: #c43b68;
+  color: #303AB2;
  }
 .text--blue { 
-  color: #c43b68;
+  color: #303AB2;
  }
 .text--white { 
   color: #fff ;
@@ -488,20 +488,20 @@ select {
 }
 input:focus {
     background: transparent;
-    border: 1px solid #c43b68;
+    border: 1px solid #00ABC2;
     outline: none;
 }
 textarea {
     resize: none;
-    background: #c43b68;
-    border: 1px solid #c43b68;
+    background: #00ABC2;
+    border: 1px solid #00ABC2;
     padding: 10px;
     width: 100%;
     font-size: 14px;
 }
 textarea:focus {
     background: transparent;
-    border: 1px solid #c43b68;
+    border: 1px solid #00ABC2;
     outline: none;
 }
 /*----------------------------
@@ -700,17 +700,17 @@ p.error {
 ------------------------------------------*/
 
 *::-moz-selection {
-    background: #c43b68;
+    background: #303AB2;
     color: #fff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: #c43b68;
+    background: #303AB2;
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: #c43b68;
+    background: #303AB2;
     color: #fff;
     text-shadow: none;
 }
