@@ -129,6 +129,23 @@
     left: auto;
     right: 0;
 }
+.owl-next,.owl-prev {
+  background: #fff !important;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #0000001a !important;
+  
+} 
+.owl-next,.owl-prev i {
+  color: #000 !important;
+}
+#scrollUp {
+  background: #fff !important;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #0000001a !important;
+}
+#scrollUp i {
+  color: #000 !important;
+}
 .slider__activation__wrap:hover .owl-nav div {
     opacity: 1;
 }

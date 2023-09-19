@@ -1,91 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="zxx">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Product Details || Asbab – Furniture HTML Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Details</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- Place favicon.ico in the root directory -->
-    
-    
-    
 
     <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
     <!-- Owl Carousel min css -->
-    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css" />
     <!-- This core.css file contents all plugings css file. -->
-    <link rel="stylesheet" href="static/css/core.css">
+    <link rel="stylesheet" href="static/css/core.css" />
     <!-- Theme shortcodes/elements style -->
-    <link rel="stylesheet" href="static/css/shortcodes.css">
+    <link rel="stylesheet" href="static/css/shortcodes.css" />
     <!-- Theme main style -->
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/style.css" />
     <!-- Responsive css -->
-    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/responsive.css" />
     <!-- User style -->
-    <link rel="stylesheet" href="static/css/custom.css">
-
+    <link rel="stylesheet" href="static/css/custom.css" />
 
     <!-- Modernizr JS -->
     <script src="static/js/modernizr-3.5.0.min.js"></script>
-</head>
-
-<body>
+  </head>
+  <script>
+    function resizeIframe() {
+      const iframe = document.getElementById('myIframe');
+      if (iframe) {
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+      }
+    }
+  </script>
+  <body>
     <!-- Body main wrapper start -->
     <div class="wrapper">
-        <!-- Start Header Style -->
-        <header id="htc__header" class="htc__header__area header--one">
-            <!-- Start Mainmenu Area -->
-            <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-4 col-6">
-                            <div class="logo">
-                                <a href=""><img src="static/picture/logo.png" alt="logo images"></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-6 d-none d-lg-block">
-                            <nav class="main__menu__nav">
-                                <ul class="main__menu">
-                                    <li class="drop"><a href="index.html">Home</a>
-                                    </li>
-                                    <li class="drop"><a href="blog.html">blog</a>
-                                    </li>
-                                    <li><a href="contact.html">contact</a></li>
-                                </ul>
-                            </nav>
+      <!-- Start Header Style -->
+      <header id="htc__header" class="htc__header__area header--one">
+        <!-- Start Mainmenu Area -->
+        <div
+          id="sticky-header-with-topbar"
+          class="mainmenu__wrap sticky__header"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-sm-4 col-6">
+                <div class="logo">
+                  <a href=""
+                    ><img src="static/picture/logo.png" alt="logo images"
+                  /></a>
+                </div>
+              </div>
+              <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                <nav class="main__menu__nav">
+                  <ul class="main__menu">
+                    <li class="drop"><a href="index.html">首页</a></li>
+                    <li class="drop"><a href="blog.html">文献</a></li>
+                    <!-- <li><a href="contact.html">contact</a></li> -->
+                  </ul>
+                </nav>
 
-                            <div class="mobile-menu d-block d-lg-none">
-                                <nav id="mobile_dropdown">
-                                    <ul>
-                                        <li><a href="">Home</a>
-                                        </li>
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="#">pages</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                                <li><a href="cart.html">Cart page</a></li>
-                                                <li><a href="checkout.html">checkout</a></li>
-                                                <li><a href="contact.html">contact</a></li>
-                                                <li><a href="product-grid.html">product grid</a></li>
-                                                <li><a href="product-list.html">product list</a></li>
-                                                <li><a href="product-details.html">product details</a></li>
-                                                <li><a href="wishlist.html">wishlist</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-sm-8 col-6">
-                            <div class="header__right">
-                                <!-- <div class="header__search search search__open">
+                <div class="mobile-menu d-block d-lg-none">
+                  <nav id="mobile_dropdown">
+                    <ul>
+                      <li><a href="">Home</a></li>
+                      <li><a href="blog.html">blog</a></li>
+                      <li>
+                        <a href="#">pages</a>
+                        <ul>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                          <li><a href="cart.html">Cart page</a></li>
+                          <li><a href="checkout.html">checkout</a></li>
+                          <li><a href="contact.html">contact</a></li>
+                          <li><a href="product-grid.html">product grid</a></li>
+                          <li><a href="product-list.html">product list</a></li>
+                          <li>
+                            <a href="product-details.html">product details</a>
+                          </li>
+                          <li><a href="wishlist.html">wishlist</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-sm-8 col-6">
+                <div class="header__right">
+                  <!-- <div class="header__search search search__open">
                                     <a href="#"><i class="icon-magnifier icons"></i></a>
                                 </div>
                                 <div class="header__account">
@@ -95,457 +103,1187 @@
                                     <a class="cart__menu" href="#"><i class="icon-handbag icons"></i></a>
                                     <a href="#"><span class="htc__qua">2</span></a>
                                 </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mobile-menu-area d-flex"></div>
                 </div>
+              </div>
             </div>
-            <!-- End Mainmenu Area -->
-        </header>
-        <!-- End Header Area -->
+            <div class="mobile-menu-area d-flex"></div>
+          </div>
+        </div>
+        <!-- End Mainmenu Area -->
+      </header>
+      <!-- End Header Area -->
 
-        <div class="body__overlay"></div>
-        <!-- Start Offset Wrapper -->
-        <div class="offset__wrapper">
-            <!-- Start Search Popap -->
-            <div class="search__area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="search__inner">
-                                <form action="#" method="get">
-                                    <input placeholder="Search here... " type="text">
-                                    <button type="submit"></button>
-                                </form>
-                                <div class="search__close__btn">
-                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="body__overlay"></div>
+      <!-- Start Offset Wrapper -->
+      <div class="offset__wrapper">
+        <!-- Start Search Popap -->
+        <div class="search__area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="search__inner">
+                  <form action="#" method="get">
+                    <input placeholder="Search here... " type="text" />
+                    <button type="submit"></button>
+                  </form>
+                  <div class="search__close__btn">
+                    <span class="search__close__btn_icon"
+                      ><i class="zmdi zmdi-close"></i
+                    ></span>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- End Search Popap -->
-            <!-- Start Cart Panel -->
-            <div class="shopping__cart">
-                <div class="shopping__cart__inner">
-                    <div class="offsetmenu__close__btn">
-                        <a href="#"><i class="zmdi zmdi-close"></i></a>
-                    </div>
-                    <div class="shp__cart__wrap">
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="static/picture/1.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="">BO&Play Wireless Speaker</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$105.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                        <div class="shp__single__product">
-                            <div class="shp__pro__thumb">
-                                <a href="#">
-                                    <img src="static/picture/2.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="shp__pro__details">
-                                <h2><a href="">Brone Candle</a></h2>
-                                <span class="quantity">QTY: 1</span>
-                                <span class="shp__price">$25.00</span>
-                            </div>
-                            <div class="remove__btn">
-                                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="shoping__total">
-                        <li class="subtotal">Subtotal:</li>
-                        <li class="total__price">$130.00</li>
-                    </ul>
-                    <ul class="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Cart Panel -->
+          </div>
         </div>
-        <!-- End Offset Wrapper -->
-        <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(static/image/4.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index.html">Home</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <a class="breadcrumb-item" href="product-grid.html">Products</a>
-                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
-                                  <span class="breadcrumb-item active">ean shirt</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <!-- End Search Popap -->
+        <!-- Start Cart Panel -->
+        <div class="shopping__cart">
+          <div class="shopping__cart__inner">
+            <div class="offsetmenu__close__btn">
+              <a href="#"><i class="zmdi zmdi-close"></i></a>
             </div>
+            <div class="shp__cart__wrap">
+              <div class="shp__single__product">
+                <div class="shp__pro__thumb">
+                  <a href="#">
+                    <img src="static/picture/1.jpg" alt="product images" />
+                  </a>
+                </div>
+                <div class="shp__pro__details">
+                  <h2><a href="">BO&Play Wireless Speaker</a></h2>
+                  <span class="quantity">QTY: 1</span>
+                  <span class="shp__price">$105.00</span>
+                </div>
+                <div class="remove__btn">
+                  <a href="#" title="Remove this item"
+                    ><i class="zmdi zmdi-close"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="shp__single__product">
+                <div class="shp__pro__thumb">
+                  <a href="#">
+                    <img src="static/picture/2.jpg" alt="product images" />
+                  </a>
+                </div>
+                <div class="shp__pro__details">
+                  <h2><a href="">Brone Candle</a></h2>
+                  <span class="quantity">QTY: 1</span>
+                  <span class="shp__price">$25.00</span>
+                </div>
+                <div class="remove__btn">
+                  <a href="#" title="Remove this item"
+                    ><i class="zmdi zmdi-close"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <ul class="shoping__total">
+              <li class="subtotal">Subtotal:</li>
+              <li class="total__price">$130.00</li>
+            </ul>
+            <ul class="shopping__btn">
+              <li><a href="cart.html">View Cart</a></li>
+              <li class="shp__checkout">
+                <a href="checkout.html">Checkout</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- End Bradcaump area -->
-        <!-- Start Product Details Area -->
-        <section class="htc__product__details bg__white ptb--100">
-            <!-- Start Product Details Top -->
-            <div class="htc__product__details__top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="htc__product__details__tab__content">
-                                <!-- Start Product Big Images -->
-                                <div class="product__big__images">
-                                    <div class="portfolio-full-image tab-content">
-                                        <div role="tabpanel" class="tab-pane fade show active" id="img-tab-1">
-                                            <img src="static/picture/18.jpg" alt="full-image">
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane fade" id="img-tab-2">
-                                            <img src="static/picture/26.jpg" alt="full-image">
-                                        </div>
-                                        <div role="tabpanel" class="tab-pane fade" id="img-tab-3">
-                                            <img src="static/picture/35.jpg" alt="full-image">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Product Big Images -->
-                                <!-- Start Small images -->
-                                <ul class="nav product__small__images" role="tablist">
-                                    <li role="presentation" class="pot-small-img">
-                                        <a class="active" href="#img-tab-1" role="tab" data-toggle="tab">
-                                            <img src="static/picture/36.jpg" alt="small-image">
-                                        </a>
-                                    </li>
-                                    <li role="presentation" class="pot-small-img">
-                                        <a href="#img-tab-2" role="tab" data-toggle="tab">
-                                            <img src="static/picture/19.jpg" alt="small-image">
-                                        </a>
-                                    </li>
-                                    <li role="presentation" class="pot-small-img">
-                                        <a href="#img-tab-3" role="tab" data-toggle="tab">
-                                            <img src="static/picture/27.jpg" alt="small-image">
-                                        </a>
-                                    </li>
-                                </ul>
-                                <!-- End Small images -->
-                            </div>
-                        </div>
-                        <div class="col-lg-7 smt-40 xmt-40">
-                            <div class="ht__product__dtl">
-                                <h2>jean shirt to sassy girl</h2>
-                                <h6>Model: <span>MNG001</span></h6>
-                                <ul class="rating">
+        <!-- End Cart Panel -->
+      </div>
+      <!-- End Offset Wrapper -->
+      <!-- Start Bradcaump area -->
+      <!-- <div
+        class="ht__bradcaump__area"
+        style="
+          background: rgba(0, 0, 0, 0) url(static/image/4.jpg) no-repeat scroll
+            center center / cover;
+        "
+      >
+        <div class="ht__bradcaump__wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="bradcaump__inner">
+                  <nav class="bradcaump-inner">
+                    <a class="breadcrumb-item" href="index.html">Home</a>
+                    <span class="brd-separetor"
+                      ><i class="zmdi zmdi-chevron-right"></i
+                    ></span>
+                    <a class="breadcrumb-item" href="product-grid.html"
+                      >Products</a
+                    >
+                    <span class="brd-separetor"
+                      ><i class="zmdi zmdi-chevron-right"></i
+                    ></span>
+                    <span class="breadcrumb-item active">ean shirt</span>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End Bradcaump area -->
+      <!-- Start Product Details Area -->
+      <section class="htc__product__details bg__white ptb--100">
+        <!-- Start Product Details Top -->
+        <div class="htc__product__details__top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="htc__product__details__tab__content">
+                  <!-- Start Product Big Images -->
+                  <div class="product__big__images">
+                    <div class="portfolio-full-image tab-content">
+                      <div
+                        role="tabpanel"
+                        class="tab-pane fade show active"
+                        id="img-tab-1"
+                      >
+                        <img src="static/1/天工开物封面.png" alt="full-image" />
+                      </div>
+                      <!-- <div role="tabpanel" class="tab-pane fade" id="img-tab-2">
+                        <img src="static/picture/26.jpg" alt="full-image" />
+                      </div>
+                      <div role="tabpanel" class="tab-pane fade" id="img-tab-3">
+                        <img src="static/picture/35.jpg" alt="full-image" />
+                      </div> -->
+                    </div>
+                  </div>
+                  <!-- End Product Big Images -->
+                  <!-- Start Small images -->
+                  <ul class="nav product__small__images" role="tablist">
+                    <!-- <li role="presentation" class="pot-small-img">
+                      <a
+                        class="active"
+                        href="#img-tab-1"
+                        role="tab"
+                        data-toggle="tab"
+                      >
+                        <img src="static/1/天工开物封面.png" alt="small-image" />
+                      </a>
+                    </li> -->
+                    <!-- <li role="presentation" class="pot-small-img">
+                      <a href="#img-tab-2" role="tab" data-toggle="tab">
+                        <img src="static/picture/19.jpg" alt="small-image" />
+                      </a>
+                    </li>
+                    <li role="presentation" class="pot-small-img">
+                      <a href="#img-tab-3" role="tab" data-toggle="tab">
+                        <img src="static/picture/27.jpg" alt="small-image" />
+                      </a> -->
+                    </li>
+                  </ul>
+                  <!-- End Small images -->
+                </div>
+              </div>
+              <div class="col-lg-7 smt-40 xmt-40">
+                <div class="ht__product__dtl">
+                    <h2>天工開物</h2>
+                    <h6>作者：  <span>（明）宋应星</span></h6>
+                    <h6>出版年份：<span>明崇祯10年[1637]</span></h6>
+                    <h6>责任者： <span>（明)宋應星撰</span></h6>
+                    <h6>出版发行项： <span>宋應星(自1明崇禎10年116371</span></h6>
+                    <h6>善本书号：<span>04915</span></h6>
+                    <h6>版本项： <span>刻本</span></h6>
+                    <h6>研究主题: <span>对《天工开物》的研究</span></h6>
+                    <h6>版本书目史注： <span>9行21字，小字雙行同，白口，四周單邊。</span></h6>
+                    <h6>现有藏本附注：<span></span></h6>
+                    <h6>从编项： <span></span></h6>
+                 
+            
+                  <!-- <h2>《天工开物》与明清农业经济的关系</h2>
+                  <h6>作者: <span>廖丽华;胡新富;陈杰;</span></h6>
+                  <h6>单位: <span>宜春学院高安校区;江西师范大学;</span></h6>
+                  <h6>文献来源: <span>宜春学院学报</span></h6>
+                  <h6>来源库: <span>期刊</span></h6>
+                  <h6>研究主题: <span>对《天工开物》的研究</span></h6>
+                  <h6>关键词: <span>天工开物;;农业经济;;明清</span></h6>
+                  <h6>发表时间: <span>2013/1/25</span></h6>
+                  <h6>第一责任人: <span>廖丽华</span></h6>
+                  <h6>
+                    基金:
+                    <span>
+                      2010年度江西省高校人文社会科学研究项目“《天工开物》与明清时期江西农业经济发展关系的研究”(项目编号:ls1012)阶段性成果之一</span
+                    >
+                  </h6>
+                  <h6>年: <span>2013</span></h6>
+                  <h6>卷: <span>35</span></h6>
+                  <h6>期: <span>01</span></h6>
+                  <h6>页码: <span>31-34</span></h6>
+                  <h6>国际标准刊号: <span>1671-380X</span></h6>
+                  <h6>中图分类号: <span>K252;F329</span></h6> -->
+                  <!-- <h6>: <span></span></h6> -->
+
+                  <!-- <ul class="rating">
                                     <li><i class="icon-star icons"></i></li>
                                     <li><i class="icon-star icons"></i></li>
                                     <li><i class="icon-star icons"></i></li>
                                     <li class="old"><i class="icon-star icons"></i></li>
                                     <li class="old"><i class="icon-star icons"></i></li>
-                                </ul>
+                                </ul> -->
 
-                                <p class="pro__info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan</p>
-
-                            </div>
-                        </div>
-                    </div>
+                  <p class="pro__info">
+                    简介：《天工开物》由宋应星初刊于1637年（明崇祯十年丁丑），共三卷十八篇，全书收录了农业、手工业，诸如机械、砖瓦、陶瓷、硫磺、烛、纸、兵器、火药、纺织、染色、制盐、采煤、榨油等生产技术。《天工开物》是世界上第一部关于农业和手工业生产的综合性著作，是中国古代一部综合性的科学技术著作，有人也称它是一部百科全书式的著作，作者是明朝科学家宋应星。外国学者称它为“中国17世纪的工艺百科全书”。作者在书中强调人类要和自然相协调、人力要与自然力相配合。是中国科技史料中保留最为丰富的一部，它更多地着眼于手工业，反映了中国明代末年出现资本主义萌芽时期的生产力状况。
+                  </p>
                 </div>
+              </div>
             </div>
-            <!-- End Product Details Top -->
-        </section>
-        <!-- End Product Details Area -->
-        <!-- Start Product Description -->
-        <section class="htc__produc__decription bg__white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Start List And Grid View -->
-                        <ul class="nav pro__details__tab" role="tablist">
-                            <li role="presentation" class="description"><a class="active" href="#description" role="tab" data-toggle="tab">description</a></li>
-                            <li role="presentation" class="review"><a href="#review" role="tab" data-toggle="tab">review</a></li>
-                            <li role="presentation" class="shipping"><a href="#shipping" role="tab" data-toggle="tab">shipping</a></li>
-                        </ul>
-                        <!-- End List And Grid View -->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ht__pro__details__content">
-                            <!-- Start Single Content -->
-                            <div role="tabpanel" id="description" class="pro__single__content tab-pane fade show in active">
-                                <div class="pro__tab__content__inner">
-                                    <p>Formfitting clothing is all about a sweet spot. That elusive place where an item is tight but not clingy, sexy but not cloying, cool but not over the top. Alexandra Alvarez’s label, Alix, hits that mark with its range of comfortable, minimal, and neutral-hued bodysuits.</p>
-                                    <h4 class="ht__pro__title">Description</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                                    <h4 class="ht__pro__title">Standard Featured</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in</p>
-                                </div>
-                            </div>
-                            <!-- End Single Content -->
-                            <!-- Start Single Content -->
-                            <div role="tabpanel" id="review" class="pro__single__content tab-pane fade">
-                                <div class="pro__tab__content__inner">
-                                    <p>Formfitting clothing is all about a sweet spot. That elusive place where an item is tight but not clingy, sexy but not cloying, cool but not over the top. Alexandra Alvarez’s label, Alix, hits that mark with its range of comfortable, minimal, and neutral-hued bodysuits.</p>
-                                    <h4 class="ht__pro__title">Description</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                                    <h4 class="ht__pro__title">Standard Featured</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem</p>
-                                </div>
-                            </div>
-                            <!-- End Single Content -->
-                            <!-- Start Single Content -->
-                            <div role="tabpanel" id="shipping" class="pro__single__content tab-pane fade">
-                                <div class="pro__tab__content__inner">
-                                    <p>Formfitting clothing is all about a sweet spot. That elusive place where an item is tight but not clingy, sexy but not cloying, cool but not over the top. Alexandra Alvarez’s label, Alix, hits that mark with its range of comfortable, minimal, and neutral-hued bodysuits.</p>
-                                    <h4 class="ht__pro__title">Description</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                                    <h4 class="ht__pro__title">Standard Featured</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem</p>
-                                </div>
-                            </div>
-                            <!-- End Single Content -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Product Description -->
-        <!-- Start Product Area -->
-        <section class="htc__product__area--2 pb--100 product-details-res">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section__title--2 text-center">
-                            <h2 class="title__line">New Arrivals</h2>
-                            <p>But I must explain to you how all this mistaken idea</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product__wrap row">
-                    <!-- Start Single Product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="category">
-                            <div class="ht__cat__thumb">
-                                <a href="">
-                                    <img src="static/picture/15.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="fr__hover__info">
-                                <ul class="product__action">
-                                    <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                    <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                    <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="fr__product__inner">
-                                <h4><a href="">Product Title Here </a></h4>
-                                <ul class="fr__pro__prize">
-                                    <li class="old__prize">$30.3</li>
-                                    <li>$25.9</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Product -->
-                    <!-- Start Single Product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="category">
-                            <div class="ht__cat__thumb">
-                                <a href="">
-                                    <img src="static/picture/23.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="fr__hover__info">
-                                <ul class="product__action">
-                                    <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                    <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                    <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="fr__product__inner">
-                                <h4><a href="">Product Title Here </a></h4>
-                                <ul class="fr__pro__prize">
-                                    <li class="old__prize">$30.3</li>
-                                    <li>$25.9</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Product -->
-                    <!-- Start Single Product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="category">
-                            <div class="ht__cat__thumb">
-                                <a href="">
-                                    <img src="static/picture/32.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="fr__hover__info">
-                                <ul class="product__action">
-                                    <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                    <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                    <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="fr__product__inner">
-                                <h4><a href="">Product Title Here </a></h4>
-                                <ul class="fr__pro__prize">
-                                    <li class="old__prize">$30.3</li>
-                                    <li>$25.9</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Product -->
-                    <!-- Start Single Product -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="category">
-                            <div class="ht__cat__thumb">
-                                <a href="">
-                                    <img src="static/picture/41.jpg" alt="product images">
-                                </a>
-                            </div>
-                            <div class="fr__hover__info">
-                                <ul class="product__action">
-                                    <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
-
-                                    <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
-
-                                    <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="fr__product__inner">
-                                <h4><a href="">Product Title Here </a></h4>
-                                <ul class="fr__pro__prize">
-                                    <li class="old__prize">$30.3</li>
-                                    <li>$25.9</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Product -->
-                </div>
-            </div>
-        </section>
-        <!-- End Product Area -->
-        <!-- Start Brand Area -->
-        <div class="htc__brand__area bg__cat--4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ht__brand__inner">
-                            <ul class="brand__list owl-carousel clearfix">
-                                <li><a href="#"><img src="static/picture/1.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/21.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/3.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/41.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/5.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/5.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/1.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="static/picture/21.png" alt="brand images"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- End Brand Area -->
-        <!-- End Banner Area -->
-        <!-- Start Footer Area -->
-        <footer id="htc__footer">
-            <!-- Start Footer Widget -->
-            <div class="footer__container bg__cat--1">
-                <div class="container">
-                    <div class="row">
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="footer">
-                                <h2 class="title__line--2">ABOUT US</h2>
-                                <div class="ft__details">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-lg-2 col-md-6 xmt-40">
-                            <div class="footer">
-                                <h2 class="title__line--2">information</h2>
-                                <div class="ft__inner">
-                                    <ul class="ft__list">
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Privacy & Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-lg-2 col-md-6 xmt-40 smt-40">
-
-                        </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-lg-2 col-md-6 xmt-40 smt-40">
-
-                        </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6 xmt-40 smt-40">
-                            <div class="footer">
-                                <h2 class="title__line--2">NEWSLETTER </h2>
-                                <div class="ft__inner">
-                                    <div class="news__input">
-                                        <input type="text" placeholder="Your Mail*">
-                                        <div class="send__btn">
-                                            <a class="fr__btn" href="#">Send Mail</a>
+        <!-- End Product Details Top -->
+      </section>
+      <!-- End Product Details Area -->
+      <!-- Start Product Description -->
+      <section class="htc__produc__decription bg__white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <!-- Start List And Grid View -->
+              <ul class="nav pro__details__tab" role="tablist">
+                <li role="presentation" class="description">
+                  <a
+                    class="active"
+                    href="#description"
+                    role="tab"
+                    data-toggle="tab"
+                    >正文内容</a
+                  >
+                </li>
+                <li role="presentation" class="review">
+                  <a href="#review" role="tab" data-toggle="tab">相关图像</a>
+                </li>
+                <li role="presentation" class="shipping">
+                  <a href="#shipping" role="tab" data-toggle="tab">相关研究</a>
+                </li>
+              </ul>
+              <!-- End List And Grid View -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="ht__pro__details__content">
+                <!-- Start Single Content -->
+                <div
+                  role="tabpanel"
+                  id="description"
+                  class="pro__single__content tab-pane fade show in active"
+                >
+                  <div class="pro__tab__content__inner">
+                    <iframe id="myIframe" src="./1.html" width="100%" height="800px""></iframe>
+                  </div>
+                </div>
+                <!-- End Single Content -->
+                <!-- Start Single Content -->
+                <div
+                  role="tabpanel"
+                  id="review"
+                  class="pro__single__content tab-pane fade"
+                >
+                  <div class="pro__tab__content__inner">
+                    <div class="slider__container slider--one bg__cat--3">
+                        <div class="slide__container slider__activation__wrap owl-carousel">
+                            <!-- Start Single Slide -->
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/1 耕.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/1.html" width="100%" height="800"></iframe>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Single Footer Widget -->
-                    </div>
-                </div>
-            </div>
-            <!-- End Footer Widget -->
-            <!-- Start Copyright Area -->
-            <div class="htc__copyright bg__cat--5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="copyright__inner">
-                                <p>Copyright &copy; 2023.XXX  All rights reserved.</p>
+                            <!-- End Single Slide -->
+                            <!-- Start Single Slide -->
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/2 耔、耘.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/2.html" width="100%" height="800"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/3 耙.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/3.html" width="100%" height="800"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/4 筒车.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/4.html" width="100%" height="800"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/9 北耕兼种.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/9.html" width="100%" height="800"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single__slide animation__style01 slider__fixed--height">
+                                <div class="container">
+                                    <div class="df-w">
+                                        <div class="df-w-l">
+                                            <img src="./static/1/相关图像/10 耨.PNG" alt="">
+                                        </div>
+                                        <div class="df-w-r">
+                                            <iframe src="./static/1/相关图像/10.html" width="100%" height="800"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Slide -->
                         </div>
                     </div>
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/1 耕.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/1.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/2 耔、耘.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/2.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/3 耙.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/3.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/4 筒车.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/4.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/9 北耕兼种.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/9.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+                    <!-- <div class="df-w">
+                        <div class="df-w-l">
+                            <img src="./static/1/相关图像/10 耨.PNG" alt="">
+                        </div>
+                        <div class="df-w-r">
+                            <iframe src="./static/1/相关图像/10.html" width="100%" height="800"></iframe>
+                        </div>
+                    </div> -->
+
+                    <div>
+                        文献名：天工開物
+                        <br>
+出处：鼎秀古籍全文检索平台
+<br>
+
+备注：（1）作者：宋应星；（2）版本：明崇禎十一年；（3）篇幅：3卷
+                    </div>
+                  </div>
                 </div>
+                <!-- End Single Content -->
+                <!-- Start Single Content -->
+                <div
+                  role="tabpanel"
+                  id="shipping"
+                  class="pro__single__content tab-pane fade"
+                >
+                  <div class="pro__tab__content__inner">
+                    <div>
+                      <html>
+                        <head>
+                          <meta
+                            http-equiv="Content-Type"
+                            content="text/html; charset=utf-8"
+                          />
+                          <meta
+                            http-equiv="Content-Style-Type"
+                            content="text/css"
+                          />
+                          <meta
+                            name="generator"
+                            content="Aspose.Words for .NET 17.1.0.0"
+                          />
+                          <title></title>
+                        </head>
+                        <body>
+                          <div>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                            <a
+                              href="./static/doc/1/《天工开物》的农业技术观及其教育意蕴_陈旭.pdf"
+                              target="__blank"
+                            >
+                              <p
+                                style="
+                                  margin-top: 0pt;
+                                  margin-bottom: 0pt;
+                                  font-size: 10.5pt;
+                                  color: #4d85ff;
+                                "
+                              >
+                                <span style="font-family: 'MS Gothic'">《</span
+                                ><span style="font-family: 'Microsoft JhengHei'"
+                                  >天工开物</span
+                                ><span style="font-family: 'MS Gothic'">》</span
+                                ><span style="font-family: 'Microsoft JhengHei'"
+                                  >的农业技术观及其教育意蕴</span
+                                >
+                              </p>
+                            </a>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >作者</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >陈旭</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >单位</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >中国农业博物馆</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >摘要</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'MS Gothic'">《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'MS Gothic'">》</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >成书于我国明代</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >初刊于</span
+                              ><span style="font-family: 'Courier New'"
+                                >1637</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >年</span
+                              ><span style="font-family: 'Courier New'">（</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >明崇祯十年</span
+                              ><span style="font-family: 'Courier New'"
+                                >），</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >作者是明代科学家宋应星</span
+                              ><span style="font-family: 'MS Gothic'">。</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >书中图文并茂地记载与论述了我国明代中叶以前传统农业和手工业两大领域内</span
+                              ><span style="font-family: 'Courier New'">30</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >个生产部门的农业科技与工艺技术</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >这本书一定程度上推动了当时社会的农业和手工业发展</span
+                              ><span style="font-family: 'MS Gothic'">。《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'MS Gothic'">》</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >是一部深入了解我国古代社会实态和传统科技的技术书</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >更是一部中华农业文明极具代表性的著作</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >被誉为</span
+                              ><span style="font-family: 'Courier New'">“</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >中国</span
+                              ><span style="font-family: 'Courier New'">17</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >世纪的工艺百科全书</span
+                              ><span style="font-family: 'Courier New'">”</span
+                              ><span style="font-family: 'MS Gothic'">。</span>
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                            <a
+                            href="./static/doc/1/面向《天工开物》版本图像资源的知识图谱应用研究_谢玮.pdf"
+                            target="__blank"
+                            style="
+                            margin-top: 0pt;
+                            margin-bottom: 0pt;
+                            font-size: 10.5pt;
+                          "
+                          >
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                            color: #4d85ff;
+
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >面向</span
+                              ><span style="font-family: 'MS Gothic'">《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'MS Gothic'">》</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >版本图像资源的知识图谱应用研究</span
+                              >
+                            </p>
+                        </a>
+
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >谢玮</span
+                              ><span style="font-family: 'Courier New'"> </span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >衡雨</span
+                              ><span style="font-family: 'Courier New'"> </span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >邱菊芯</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >扬州大学</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >摘要</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >提出一种面向</span
+                              ><span style="font-family: 'MS Gothic'">《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'MS Gothic'">》</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >版本图像的数字化资源开发</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >为实现该古籍数</span
+                              ><span style="font-family: 'Courier New'">10</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >种版本图像资源特征及知识图谱推理关联</span
+                              ><span style="font-family: 'MS Gothic'">、</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >主题性优化检索及功能设置和知识服务提供参考</span
+                              ><span style="font-family: 'MS Gothic'">。</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >构建本体架构与关联数据</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >选取</span
+                              ><span style="font-family: 'MS Gothic'">《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'MS Gothic'">》</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >具有代表性的</span
+                              ><span style="font-family: 'Courier New'">3</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >个版本资料为实证数据来源</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >搭建图文资料图数据库</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >兼顾领域本体和元数据描述</span
+                              ><span style="font-family: 'Courier New'">2</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >方面</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >以充分发掘利用图像知识</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >借助</span
+                              ><span style="font-family: 'MS Gothic'">《</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >古籍元数据规范</span
+                              ><span style="font-family: 'MS Gothic'">》、</span
+                              ><span style="font-family: 'Courier New'">DC</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >实现元素互操作及模型运用</span
+                              ><span style="font-family: 'MS Gothic'">。</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >为该古籍多版本资料的数据化转换提供新方法和思路</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >为设计</span
+                              ><span style="font-family: 'MS Gothic'">、</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >历史等多领域群体提供智能化知识服务</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >并推进古籍数字化传承及古籍图像智能化展示</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >在数字人文领域拓延推广范围及深度</span
+                              ><span style="font-family: 'MS Gothic'">。</span>
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >DOI：10.19554/j.cnki.1001-3563.2023.S1.071</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                            <a
+                            href="./static/doc/1/天工开物·版画与科技展——图像的艺术与科技的传承.pdf"
+                            target="__blank"
+                          >
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                                color: #4d85ff;
+
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'Courier New'">·</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >版画与科技展</span
+                              ><span style="font-family: 'Courier New'">——</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >图像的艺术与科技的传承</span
+                              >
+                            </p>
+                        </a>
+
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >作者</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西安美术学院版画系</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >单位</span
+                              ><span style="font-family: 'Courier New'">：</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西安美术学院版画系</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >摘要</span
+                              ><span style="font-family: 'Courier New'"
+                                >：“</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >天工开物</span
+                              ><span style="font-family: 'Courier New'">·</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >版画与科技展</span
+                              ><span style="font-family: 'Courier New'">”</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >由陕西省美术家协会版画艺术委员会</span
+                              ><span style="font-family: 'MS Gothic'">、</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西安美术学院主办</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西安美术学院科研创作处</span
+                              ><span style="font-family: 'MS Gothic'">、</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >陕西省公众科学素质与绘画艺术创新研究中心</span
+                              ><span style="font-family: 'MS Gothic'">、</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西安美术学院图像研究所承办</span
+                              ><span style="font-family: 'Courier New'">，</span
+                              ><span style="font-family: 'Microsoft JhengHei'"
+                                >西部美术馆协办的展览</span
+                              ><span style="font-family: 'MS Gothic'">。</span>
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >DOI：10.13772/j.cnki.61-1042/j.2022.04.029</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                            <a
+                            href="./static/doc/1/A_Multi-Objective_Dynamically_Optimized_Fleet_Algorithm_for_Misty_Fields_Exploration.pdf"
+                            target="__blank"
+                          >
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                                color: #4d85ff;
+
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >A Multi-Objective Dynamically Optimized Fleet
+                                Algorithm for Misty Fields Exploration</span
+                              >
+                            </p>
+                        </a>
+
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >作者</span
+                              ><span style="font-family: 'Courier New'"
+                                >：Ziyang Weng* and Shuhao Wang</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >单位</span
+                              ><span style="font-family: 'Courier New'"
+                                >：School of Information Management, Wuhan
+                                University, Wuhan, China</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >摘要</span
+                              ><span style="font-family: 'Courier New'"
+                                >：The Fleet algorithm is a new meta-heuristic
+                                swarm intelligence algorithm inspired by the
+                                behavior of fleet exploring unknown regions,
+                                collecting and distributing geo-data</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >and deciding on global voyage data acquisition
+                                in the Age of Discovery. To address the problem
+                                of solving the optimal path for multi-objective
+                                path planning in the exploration of the misty
+                                aread, this paper proposes and constructs a
+                                dynamic path planning model for a fleet of ships
+                                exploring global route geodata. The global
+                                optimal path can be effectively planned by
+                                fitting the algorithm model description with the
+                                historical archival data for deduction.</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                            <a
+                            href="./static/doc/1/Prototype_Algorithm_Number_Chain_Features_in_Spatial_Similarity_Calculation_of_Time-Series_Graph_Sources.pdf"
+                            target="__blank"
+                          >
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                                color: #4d85ff;
+
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >Prototype Algorithm: Number Chain Features in
+                                Spatial Similarity Calculation of Time-Series
+                                Graph Sources</span
+                              >
+                            </p>
+                        </a>
+
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >作者</span
+                              ><span style="font-family: 'Courier New'"
+                                >：</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >单位</span
+                              ><span style="font-family: 'Courier New'"
+                                >：</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Microsoft JhengHei'"
+                                >摘要</span
+                              ><span style="font-family: 'Courier New'"
+                                >：In this paper, we propose a method to
+                                calculate spatial semantic similarity based on
+                                sampled same-area timeseries images. First, we
+                                preprocess the corpus data containing spatial
+                                information, then we project the coordinates in
+                                the preprocessed corpus data to obtain the
+                                actual spatial ranges, then we determine the
+                                contextual annotations of geographical feature
+                                gestures in the time-series images and perform
+                                comparison sampling, and finally we calculate
+                                the similarity between the coordinates of the
+                                overall same-area time-series image geo-corpus
+                                The similarity is evaluated for each two nodes
+                                in the set of the overall same-region geo-serial
+                                corpus. This paper identifies the causes of data
+                                noise and interpretation bias arising from the
+                                migration process of geographic data in
+                                timeseries images, which effectively complements
+                                the traditional natural semantic similarity
+                                model and improves the effectiveness of
+                                intelligent geographic information retrieval and
+                                ancient landscape painting verification.</span
+                              >
+                            </p>
+                            <p
+                              style="
+                                margin-top: 0pt;
+                                margin-bottom: 0pt;
+                                font-size: 10.5pt;
+                              "
+                            >
+                              <span style="font-family: 'Courier New'"
+                                >&#xa0;</span
+                              >
+                            </p>
+                          </div>
+                        </body>
+                      </html>
+                    </div>
+                    <!-- <iframe src="./static/doc/1/天工开物·版画与科技展——图像的艺术与科技的传承.pdf" width="100%" height="800"></iframe> -->
+                  </div>
+                </div>
+                <!-- End Single Content -->
+              </div>
             </div>
-            <!-- End Copyright Area -->
-        </footer>
-        <!-- End Footer Style -->
+          </div>
+        </div>
+      </section>
+      <!-- End Product Description -->
+      <!-- Start Product Area -->
+
+      <!-- End Product Area -->
+      <!-- Start Brand Area -->
+      <div class="htc__brand__area bg__cat--4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="ht__brand__inner">
+                <ul class="brand__list owl-carousel clearfix">
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/1.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/21.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/3.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/41.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/5.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/5.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/1.png" alt="brand images"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="static/picture/21.png" alt="brand images"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Brand Area -->
+      <!-- End Banner Area -->
+      <!-- Start Footer Area -->
+      <footer id="htc__footer">
+        <!-- Start Footer Widget -->
+        <div class="footer__container bg__cat--1">
+          <div class="container">
+            <div class="row">
+              <!-- Start Single Footer Widget -->
+              <div class="col-lg-3 col-md-6">
+                <div class="footer">
+                  <h2 class="title__line--2">ABOUT US</h2>
+                  <div class="ft__details">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Single Footer Widget -->
+              <!-- Start Single Footer Widget -->
+              <div class="col-lg-2 col-md-6 xmt-40">
+                <div class="footer">
+                  <h2 class="title__line--2">information</h2>
+                  <div class="ft__inner">
+                    <ul class="ft__list">
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Privacy & Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End Single Footer Widget -->
+              <!-- Start Single Footer Widget -->
+              <div class="col-lg-2 col-md-6 xmt-40 smt-40"></div>
+              <!-- End Single Footer Widget -->
+              <!-- Start Single Footer Widget -->
+              <div class="col-lg-2 col-md-6 xmt-40 smt-40"></div>
+              <!-- End Single Footer Widget -->
+              <!-- Start Single Footer Widget -->
+              <div class="col-lg-3 col-md-6 xmt-40 smt-40">
+                <div class="footer">
+                  <h2 class="title__line--2">NEWSLETTER</h2>
+                  <div class="ft__inner">
+                    <div class="news__input">
+                      <input type="text" placeholder="Your Mail*" />
+                      <div class="send__btn">
+                        <a class="fr__btn" href="#">Send Mail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Single Footer Widget -->
+            </div>
+          </div>
+        </div>
+        <!-- End Footer Widget -->
+        <!-- Start Copyright Area -->
+        <div class="htc__copyright bg__cat--5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="copyright__inner">
+                  <p>Copyright &copy; 2023.XXX All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Copyright Area -->
+      </footer>
+      <!-- End Footer Style -->
     </div>
     <!-- Body main wrapper end -->
 
@@ -565,7 +1303,5 @@
     <script src="static/js/waypoints.min.js"></script>
     <!-- Main js file that contents all jQuery plugins activation. -->
     <script src="static/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,29 @@
+论文连接至pdf阅读界面
+
+《天工开物》的农业技术观及其教育意蕴
+作者：陈旭
+单位：中国农业博物馆
+摘要：《天工开物》成书于我国明代，初刊于1637年（明崇祯十年），作者是明代科学家宋应星。书中图文并茂地记载与论述了我国明代中叶以前传统农业和手工业两大领域内30个生产部门的农业科技与工艺技术，这本书一定程度上推动了当时社会的农业和手工业发展。《天工开物》是一部深入了解我国古代社会实态和传统科技的技术书，更是一部中华农业文明极具代表性的著作，被誉为“中国17世纪的工艺百科全书”。
+
+面向《天工开物》版本图像资源的知识图谱应用研究
+谢玮 衡雨 邱菊芯
+扬州大学
+摘要：提出一种面向《天工开物》版本图像的数字化资源开发，为实现该古籍数10种版本图像资源特征及知识图谱推理关联、主题性优化检索及功能设置和知识服务提供参考。构建本体架构与关联数据，选取《天工开物》具有代表性的3个版本资料为实证数据来源，搭建图文资料图数据库，兼顾领域本体和元数据描述2方面，以充分发掘利用图像知识，借助《古籍元数据规范》、DC实现元素互操作及模型运用。为该古籍多版本资料的数据化转换提供新方法和思路，为设计、历史等多领域群体提供智能化知识服务，并推进古籍数字化传承及古籍图像智能化展示，在数字人文领域拓延推广范围及深度。
+DOI：10.19554/j.cnki.1001-3563.2023.S1.071
+
+天工开物·版画与科技展——图像的艺术与科技的传承
+作者：西安美术学院版画系
+单位：西安美术学院版画系
+摘要：“天工开物·版画与科技展”由陕西省美术家协会版画艺术委员会、西安美术学院主办，西安美术学院科研创作处、陕西省公众科学素质与绘画艺术创新研究中心、西安美术学院图像研究所承办，西部美术馆协办的展览。
+DOI：10.13772/j.cnki.61-1042/j.2022.04.029
+
+A Multi-Objective Dynamically Optimized Fleet Algorithm for Misty Fields Exploration 
+作者：Ziyang Weng* and Shuhao Wang 
+单位：School of Information Management, Wuhan University, Wuhan, China 
+摘要：The Fleet algorithm is a new meta-heuristic swarm intelligence algorithm inspired by the behavior of fleet exploring unknown regions, collecting and distributing geo-data
+and deciding on global voyage data acquisition in the Age of Discovery. To address the problem of solving the optimal path for multi-objective path planning in the exploration of the misty aread, this paper proposes and constructs a dynamic path planning model for a fleet of ships exploring global route geodata. The global optimal path can be effectively planned by fitting the algorithm model description with the historical archival data for deduction. 
+
+Prototype Algorithm: Number Chain Features in Spatial Similarity Calculation of Time-Series Graph Sources
+作者：
+单位：
+摘要：In this paper, we propose a method to calculate spatial semantic similarity based on sampled same-area timeseries images. First, we preprocess the corpus data containing spatial information, then we project the coordinates in the preprocessed corpus data to obtain the actual spatial ranges, then we determine the contextual annotations of geographical feature gestures in the time-series images and perform  comparison sampling, and finally we calculate the similarity between the coordinates of the overall same-area time-series image geo-corpus The similarity is evaluated for each two nodes in the set of the overall same-region geo-serial corpus. This paper identifies the causes of data noise and interpretation bias arising from the migration process of geographic data in timeseries images, which effectively complements the traditional natural semantic similarity model and improves the effectiveness of intelligent geographic information retrieval and ancient landscape painting verification.

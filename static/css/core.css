@@ -19,3 +19,13 @@
 	@import url("animation.css");
 	@import url('css.css');
 
+
+	.df-w {
+		display: flex;
+	}
+	.df-w-l {
+		flex: 1;
+	}
+	.df-w-r {
+		width: 70%;
+	}
