@@ -85,6 +85,7 @@ html {
 body {
     font-family: 'Old Standard TT', serif;
     color: #666666;
+    background: #f3efee;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -242,7 +243,13 @@ img:last-child {
   margin-bottom: 0;
 }
 body {
-  background: #fff;
+  background: #f3efee;
+}
+.sticky__header.scroll-header {
+  background: #f3efee !important;
+}
+.htc__header__area {
+  /* background: #fff; */
 }
 .mark, mark {
     background: #303AB2 none repeat scroll 0 0;
@@ -255,7 +262,7 @@ body {
     background: #303AB2;
 }
 .bg__white {
-  background: #fff;
+  background: #f3efee;
 }
 .bg__gray {
     background: #f1f1f1;

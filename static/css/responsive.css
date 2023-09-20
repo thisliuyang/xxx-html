@@ -1145,7 +1145,9 @@ nav.off__canvars--menu ul li {
 .ft__input__box input {
   width: 43%;
 }
-    
+.htc__header__area {
+  background: #fff;
+}
 .header--5 .htc__header__right {
   margin-right: 20px;
 }    
@@ -1248,6 +1250,7 @@ nav.off__canvars--menu ul li {
 }
 .slide__thumb {
   margin-top: 27px;
+
 }
 .htc__good__sale .row {
   display: block;
@@ -1293,6 +1296,8 @@ nav.off__canvars--menu ul li {
 .banner__list.owl-carousel .owl-item img {
   width: 100% !important;
 }
+
+
 /* .product__small__images {
   width: auto;
 } */

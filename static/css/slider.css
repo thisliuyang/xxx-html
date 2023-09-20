@@ -34,7 +34,7 @@
 .slider__fixed--height {
   align-items: center;
   display: flex;
-  height: 800px;
+  /* height: 800px; */
 }
 .slider--one .slide {
     align-items: center;
@@ -78,6 +78,9 @@
 }
 .slide__thumb {
     text-align: right;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 
@@ -149,7 +152,9 @@
 .slider__activation__wrap:hover .owl-nav div {
     opacity: 1;
 }
-
+.brand.owl-carousel img {
+  width: 96px !important;
+}
 .owl-item.active .single__slide.animation__style01 h2{
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
           animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;

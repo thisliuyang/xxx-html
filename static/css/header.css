@@ -24,12 +24,13 @@
 .main__menu > li > a {
     color: #333333;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     height: 80px;
     line-height: 80px;
     position: relative;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Arial,"Lucida Grande",Verdana,"Microsoft YaHei",Arial;
 }
 .main__menu li {
     position: relative;
