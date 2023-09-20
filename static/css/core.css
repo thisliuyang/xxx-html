@@ -29,3 +29,32 @@
 	.df-w-r {
 		width: 70%;
 	}
+	.text-element {
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+		-webkit-box-orient: vertical;
+		-moz-box-orient: vertical;
+		box-orient: vertical;
+		-webkit-line-clamp: 3; /* 显示的行数 */
+		-moz-line-clamp: 3;
+		line-clamp: 3;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.blog__thumb {
+		height: 300px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.blog__thumb a {
+		height: 100%;
+	}
+	.blog__thumb img {
+		height: 100%;
+		width: auto !important;
+	}
+	.blog__details > h2 {
+		min-height: 66px;
+	}
