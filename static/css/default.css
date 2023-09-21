@@ -37,9 +37,9 @@
 ======================================*/
 
 /*
-    font-family: 'Old Standard TT', serif;
+    font-family:'Microsoft YaHei', 'Old Standard TT', serif;
 
-    font-family: 'Poppins', sans-serif;
+    font-family:'Microsoft YaHei', 'Poppins', sans-serif;
 */
 
 /*------------------
@@ -83,7 +83,7 @@ html {
     }
 }
 body {
-    font-family: 'Old Standard TT', serif;
+    font-family:'Microsoft YaHei', 'Old Standard TT', serif;
     color: #666666;
     background: #f3efee;
     font-weight: 400;
@@ -93,7 +93,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 p{
-    font-family: 'Old Standard TT', serif;
+    font-family:'Microsoft YaHei', 'Old Standard TT', serif;
     color: #666666;
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +112,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Microsoft YaHei', 'Poppins', sans-serif;
     color: #313131;
     font-weight: 400;
     -webkit-font-variant-ligatures: common-ligatures;
@@ -193,12 +193,14 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #b5aead;
+    color: #333;
+    /* color: #b5aead; */
 }
 p a:hover,
 p a:focus,
 p a:active {
-    color: #b5aead;
+  color: #333;
+    /* color: #b5aead; */
 }
 h1 a,
 h2 a,
