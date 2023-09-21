@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>中国古代农书数据知识共享计划</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <!-- Owl Carousel min css -->
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="static/css/owl.theme.default.min.css" />
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="static/css/core.css" />
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="static/css/shortcodes.css" />
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="static/css/style.css" />
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="static/css/responsive.css" />
+    <!-- User style -->
+    <link rel="stylesheet" href="static/css/custom.css" />
+
+    <!-- Modernizr JS -->
+    <script src="static/js/modernizr-3.5.0.min.js"></script>
+
+    <style>
+      .list-box {
+        width: 100%;
+        display: flex;
+        padding: 24px 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+        /* border-right: 1px solid #ddd; */
+        border-bottom: 1px solid #ddd;
+        /* border-left: 1px solid #ddd; */
+      }
+      .list-box .fi {
+        display: flex;
+      }
+      .list-box .title {
+        color: #333;
+        font-family: Microsoft YaHei;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .i {
+        display: flex;
+        padding: 0px 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        border: 0.6px solid #2da641;
+        color: #2da641;
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .fi {
+        display: flex;
+        padding-left: 0px;
+        align-items: center;
+        gap: 17px;
+      }
+      .fi .lable {
+        color: var(--, #888);
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        min-width: 60px;
+      }
+      .fi .value {
+        color: #888;
+        font-family: Microsoft YaHei;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 2; /* 显示的行数 */
+        -moz-line-clamp: 2;
+        line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Body main wrapper start -->
+    <div class="wrapper">
+      <!-- Start Header Style -->
+      <header id="htc__header" class="htc__header__area header--one">
+        <!-- Start Mainmenu Area -->
+        <div
+          id="sticky-header-with-topbar"
+          class="mainmenu__wrap sticky__header"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="">
+                <div class="logo">
+                  <a href="">
+                    <!-- <img src="static/picture/logo.png" alt="logo images"/> -->
+                    <img
+                      src="static/img/logo.png"
+                      alt="logo images"
+                      style="height: 60px"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-xl-7 col-lg-6 d-none d-lg-block">
+                <nav class="main__menu__nav">
+                  <ul class="main__menu">
+                    <li class="drop"><a href="index.html">首页</a></li>
+                    <li class="drop"><a href="list.html">研究</a></li>
+                    <li class="drop"><a href="list2.html">文献</a></li>
+                    <!-- <li class="drop"><a href="index.html">Home</a>
+                                    </li>
+                                    <li class="drop"><a href="blog.html">blog</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html">Blog Grid</a></li>
+                                            <li><a href="details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li> -->
+                    <!-- <li><a href="contact.html">contact</a></li> -->
+                  </ul>
+                </nav>
+
+                <div class="mobile-menu d-block d-lg-none">
+                  <nav id="mobile_dropdown">
+                    <ul>
+                      <li><a href="">Home</a></li>
+                      <li><a href="blog.html">blog</a></li>
+                      <li>
+                        <a href="#">pages</a>
+                        <ul>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="details.html">Blog Details</a></li>
+                          <li><a href="cart.html">Cart page</a></li>
+                          <li><a href="checkout.html">checkout</a></li>
+                          <li><a href="contact.html">contact</a></li>
+                          <li><a href="product-grid.html">product grid</a></li>
+                          <li><a href="product-list.html">product list</a></li>
+                          <li>
+                            <a href="product-details.html">product details</a>
+                          </li>
+                          <li><a href="wishlist.html">wishlist</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="mobile-menu-area d-flex"></div>
+          </div>
+        </div>
+        <!-- End Mainmenu Area -->
+      </header>
+      <!-- End Header Area -->
+
+      <div class="body__overlay"></div>
+      <!-- Start Offset Wrapper -->
+      <div class="offset__wrapper">
+        <!-- Start Search Popap -->
+        <!-- <div class="search__area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="search__inner">
+                                <form action="#" method="get">
+                                    <input placeholder="Search here... " type="text">
+                                    <button type="submit"></button>
+                                </form>
+                                <div class="search__close__btn">
+                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- End Search Popap -->
+        <!-- Start Cart Panel -->
+        <div class="shopping__cart">
+          <div class="shopping__cart__inner">
+            <div class="offsetmenu__close__btn">
+              <a href="#"><i class="zmdi zmdi-close"></i></a>
+            </div>
+            <div class="shp__cart__wrap">
+              <div class="shp__single__product">
+                <div class="shp__pro__thumb">
+                  <a href="#">
+                    <img src="static/picture/1.jpg" alt="product images" />
+                  </a>
+                </div>
+                <div class="shp__pro__details">
+                  <h2>
+                    <a href="product-details.html">BO&Play Wireless Speaker</a>
+                  </h2>
+                  <span class="quantity">QTY: 1</span>
+                  <span class="shp__price">$105.00</span>
+                </div>
+                <div class="remove__btn">
+                  <a href="#" title="Remove this item"
+                    ><i class="zmdi zmdi-close"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="shp__single__product">
+                <div class="shp__pro__thumb">
+                  <a href="#">
+                    <img src="static/picture/2.jpg" alt="product images" />
+                  </a>
+                </div>
+                <div class="shp__pro__details">
+                  <h2><a href="product-details.html">Brone Candle</a></h2>
+                  <span class="quantity">QTY: 1</span>
+                  <span class="shp__price">$25.00</span>
+                </div>
+                <div class="remove__btn">
+                  <a href="#" title="Remove this item"
+                    ><i class="zmdi zmdi-close"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <ul class="shoping__total">
+              <li class="subtotal">Subtotal:</li>
+              <li class="total__price">$130.00</li>
+            </ul>
+            <ul class="shopping__btn">
+              <li><a href="cart.html">View Cart</a></li>
+              <li class="shp__checkout">
+                <a href="checkout.html">Checkout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Cart Panel -->
+      </div>
+      <!-- End Offset Wrapper -->
+      <!-- Start Bradcaump area -->
+      <!-- <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(static/image/4.jpg) no-repeat scroll center center / cover ;">
+            <div class="ht__bradcaump__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="bradcaump__inner">
+                                <nav class="bradcaump-inner">
+                                  <a class="breadcrumb-item" href="index.html">Home</a>
+                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i></span>
+                                  <span class="breadcrumb-item active">Blog</span>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+      <!-- End Bradcaump area -->
+      <!-- Start Blog Area -->
+      <section class="htc__blog__area bg__white ptb--100">
+        <div class="container">
+          <div class="ht__blog__wrap blog--page row">
+            <div class="list-box">
+              <div class="title">
+                <div>GIS技术支持下的北宋初期丝路要道灵州道复原研究</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">云南大学学报(社会科学版)</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">乐玲;张萍;</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">陕西师范大学;首都师范大学;</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">灵州道;;官方贡道;;地理定位;;道路地图</div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2017/9/18</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  在9世纪后半叶乃至整个10世纪的丝绸之路东、中段交通网络系统中,灵州道占有一席之地。宋初,大食、回鹘、于阗以及归义军等民族政权多通过灵州道与北宋王朝进行经贸、文化往来。本文主要针对这一时段内灵州道的畅通情况及其道路性质进行探讨,在原有文献考证的基础上,利用考古资料、GIS技术,尽可能实现对灵州道古地名数据的精确地理定位,最后使用ARCGIS技术,绘制灵州道的道路走向地图,为北宋灵州道区域的政治、经济、文化交流综合研究提供地理学依据。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>宋代官方出版事业概述</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">山东图书馆学刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">霍艳芳;温晓晨;</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">山东大学历史文化学院;</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">宋代;;图书;;官方出版;;出版事业</div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2019/4/28</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  宋代是雕版印刷的普及时代,官方和民间两大出版系统日渐形成。宋代官方出版机构数量众多,出版内容广泛,出版特色体现在国子监的地位、用纸、经注合一等方面,发行渠道有皇帝宣赐和售书两种,出版管理严格且出现了版权保护,在中国出版史上占有重要地位。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>古代农书目录学渊源考</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">安徽农业科学</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">袁新芳</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">河南城建学院图书馆</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">古代农书;;分类;;著录;;目录学</div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2011/8/10</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  结合历代目录学家古代农书编目认识、官修史志书目子部农家类著录的演变轨迹,以及现代农书与古代农书的整理情况,指出作为子部的二级类目农家类不仅需要细分子目、详加著录,更需要出现专科目录,从而既能符合目录学的历史发展趋势,又能够为后人搜求、研究古代农学文献提供大量珍贵的资料。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>《农桑衣食撮要》对元代农业经济的影响</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">农业考古</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">汤慧玲</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">黄淮学院社会管理系;</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">
+                  鲁明善;;《农桑衣食撮要》;;农业经济;;影响
+                </div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2015/6/23</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  在元代之前,由于南宋王朝的腐败无能,所以我国大部分地区的农业生产都处于非常薄弱的位置,造成了民不聊生。元朝在消灭宋朝之后,就需要马上地恢复和发展因为战争而破坏的农业生产,鲁明善在《农桑衣食撮要》中所提到的农业经济思想具有重要的时代性意义。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>
+                  从《树艺篇》到《汝南圃史》——明代农书生产过程的个案研究
+                </div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">自然科学史研究</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">葛小寒</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">北京师范大学历史学院</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">
+                  《树艺篇》;;《花史》;;《汝南圃史》;;明代农书;;生产过程
+                </div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2020/3/15</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  《汝南圃史》的"祖本"是《树艺篇》,且中间经由《花史》一书的修改方才完成。作为"稿本"的《树艺篇》记录了很多明代士人获取农学知识的基础史料,从中可以发现时人从藏书与阅读、游历与交往、采访与躬耕等多个方面获取农学知识。进一步考察《树艺篇》及其删减本《花史》对这些知识的加工,发现撰者颇重视"知识性"的介绍,并在一定程度上流露出该书作者乃是"士人"的身份。《汝南圃史》则在吸收了以上两种编辑与撰写倾向的基础上,进一步系统化了撰者所获取的农学知识。研究表明,农书的撰写并不都来自于实际的生活经验,在很大程度上,明代农书的生产过程,就是文本不断再造的过程。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>古农书现代价值考略</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">安徽农业科学</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">王建华</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">黄河水利职业技术学院</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">古农书;;古代农业文献;;价值</div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2011/9/20</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  以古代文献中的农业记载为主线,揭示了古农书分布的情况以及特色性,并对古农书的价值进行分析,指出古农书不仅是研究我国文明史所必须利用的资料,同时也是促进今天的农业经济、文化发展所必须借鉴的宝贵文字载体。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>科学、技艺、技术:中国农业从物质到知识的穿越</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">北京师范大学学报(社会科学版)</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">白馥兰;董晓萍;</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">
+                  爱丁堡大学社会人类学系;北京师范大学民俗典籍文字研究中心;
+                </div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">
+                  中国科技史;;科学;;技艺;;技术;;政府治理;;地方文化多样性
+                </div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">2015/7/25</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  中国农业在中国农政管理系统中是治国之本,该系统兼容地方文化多样性,扎根社会网络,对科学、技艺、技术的知识与实践产生了积极作用。在19世纪之前,几乎没有任何西方国家在促进农业生产和传播农业知识方面有所作为,中国却从宋代开始已经全面着手,政府发挥各级官员、文人学士、地主作者、农民和工匠的综合作用,鼓励官民合作,发展先秦以来的儒家伦理政治、伦理社会秩序和伦理道德民俗,更新了中国农业国家的知识系统与宇宙观。发展这一方向的研究成果,能够增加我们对科学与规律的理解,而它不仅存在于中国,也普遍地存在于人类社会的前现代时期之中。
+                </div>
+              </div>
+            </div>
+            <div class="list-box">
+              <div class="title">
+                <div>山西古农书考</div>
+                <div class="i">期刊</div>
+              </div>
+              <div class="fi">
+                <div class="lable">文献来源</div>
+                <div class="value">中国农史</div>
+              </div>
+              <div class="fi">
+                <div class="lable">作者</div>
+                <div class="value">张允中</div>
+              </div>
+              <div class="fi">
+                <div class="lable">单位</div>
+                <div class="value">太原工业大学材料工程学院</div>
+              </div>
+
+              <div class="fi">
+                <div class="lable">关键词</div>
+                <div class="value">古农书;吴其浚;《马首农言》;祁隽藻;</div>
+              </div>
+              <div class="fi">
+                <div class="lable">发表时间</div>
+                <div class="value">1994/8/28</div>
+              </div>
+              <div class="fi">
+                <div class="lable">摘要</div>
+                <div class="value text-element">
+                  山西地处黄土高原，是中国农业文化最早的发祥地之一。本文对山西的古农书从三个方面作了研究：其一，通过考证，收集了山西籍人所著的古农书２１种，涉及到农学、畜牧、水利、果树等诸多方面；其二，通过考证，收集了山西清末以前所出版的古农书２４种，对中国部分古农书作了系列地展现；其三，围绕山西有代表性的古农书《马首农言》，作者对该书现存的６种不同版本，对其作者祁隽藻的年谱、主要著作以及有关农业诗文进行了考证。本文有助于对山西古农书书目、类别、影响等方面的进一步研究。
+                </div>
+              </div>
+            </div>
+            <!-- End Single Blog -->
+          </div>
+          <!-- Start PAgenation -->
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="htc__pagenation">
+                <li>
+                  <a href="#"><i class="zmdi zmdi-chevron-left"></i></a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li>
+                  <a href="#"><i class="zmdi zmdi-more"></i></a>
+                </li>
+                <li><a href="#">19</a></li>
+                <li class="active">
+                  <a href="#"><i class="zmdi zmdi-chevron-right"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- End PAgenation -->
+        </div>
+      </section>
+      <!-- End Blog Area -->
+      <!-- Start Footer Area -->
+      <footer id="htc__footer">
+        <!-- Start Footer Widget -->
+        <!-- End Footer Widget -->
+        <!-- Start Copyright Area -->
+        <div class="htc__copyright bg__cat--5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="copyright__inner">
+                  <p>
+                    Copyright &copy; 2023.中国古代农书数据知识共享计划课题组 All
+                    rights reserved.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Copyright Area -->
+      </footer>
+      <!-- End Footer Style -->
+    </div>
+    <!-- Body main wrapper end -->
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!-- jquery latest version -->
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <!-- Popper js -->
+    <script src="static/js/popper.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- All js plugins included in this file. -->
+    <script src="static/js/plugins.js"></script>
+    <script src="static/js/slick.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <!-- Waypoints.min.js. -->
+    <script src="static/js/waypoints.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
