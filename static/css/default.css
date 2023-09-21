@@ -193,12 +193,12 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #303AB2;
+    color: #b5aead;
 }
 p a:hover,
 p a:focus,
 p a:active {
-    color: #303AB2;
+    color: #b5aead;
 }
 h1 a,
 h2 a,
@@ -252,14 +252,14 @@ body {
   /* background: #fff; */
 }
 .mark, mark {
-    background: #303AB2 none repeat scroll 0 0;
+    background: #b5aead none repeat scroll 0 0;
     color: #ffffff;
 }
 /*-------------------------------
   06. Bg-Color
 -------------------------------------*/
 .bg__theme {
-    background: #303AB2;
+    background: #b5aead;
 }
 .bg__white {
   background: #f3efee;
@@ -336,10 +336,10 @@ body {
   09. Text Color
 --------------------------------*/
 .text--theme { 
-  color: #303AB2;
+  color: #b5aead;
  }
 .text--blue { 
-  color: #303AB2;
+  color: #b5aead;
  }
 .text--white { 
   color: #fff ;
@@ -707,17 +707,17 @@ p.error {
 ------------------------------------------*/
 
 *::-moz-selection {
-    background: #303AB2;
+    background: #b5aead;
     color: #fff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: #303AB2;
+    background: #b5aead;
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: #303AB2;
+    background: #b5aead;
     color: #fff;
     text-shadow: none;
 }
